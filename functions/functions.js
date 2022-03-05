@@ -64,7 +64,7 @@ async function getTotdRecords(date) {
         trackUid = totd.map().id
         totdSearch = await totd.map().then(async map => {
             trackUid = map.uid
-            trackName = map.name
+            trackName = map.fileName.replace(/\.[^/.]+$/, "").replace(/\.[^/.]+$/, "")
             await map.author().then(async author => {
                 totdauthor = author.name
                 authorAccountId = author.id
