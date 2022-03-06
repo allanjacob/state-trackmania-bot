@@ -63,7 +63,7 @@ function embedFormatter(trackName, trackUid, value, authorName, authorAccountId)
         .setAuthor(`Created by ${authorName}`, 'https://trackmania.io/img/square.png', `https://trackmania.io/#/player/${authorAccountId}`)
         .setThumbnail('https://trackmania.io/img/square.png')
         .addFields(
-            { name: 'New Jersey Track Leaders', value: value },
+            { name: 'Track Leaders', value: value },
         )
         .setFooter('This bot is currently in active development.');
 
