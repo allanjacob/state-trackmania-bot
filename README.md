@@ -40,7 +40,6 @@ npm install dotenv
 
 ```
 DISCORD_TOKEN =
-UBI_TOKEN =
 CLIENT_ID =
 GUILD_ID =
 UBI_USERNAME =
