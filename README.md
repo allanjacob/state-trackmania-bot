@@ -11,28 +11,15 @@ If you want to quickly get this bot up and running on your environment:
 ```
 git clone https://github.com/allanjacob/state-trackmania-bot.git
 ```
-
-2. Install [discord.js](https://discord.js.org/#/) module with the command below:
+Install the following:
 
 ```
 npm install discord.js
-```
 
-3. Install the [Trackmania 2020 API node](https://github.com/breeku/trackmania-api-node) module with the command below:
-
-```
 npm install trackmania-api-node
-```
 
-4. Install the [trackmania.io API](https://github.com/GreepTheSheep/node-trackmania.io) module with the command below:
-
-```
 npm install trackmania.io
-```
 
-5. install the [dotenv](https://github.com/motdotla/dotenv) module with the command below:
-
-```
 npm install dotenv
 ```
 
