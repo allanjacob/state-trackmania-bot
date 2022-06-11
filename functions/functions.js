@@ -3,6 +3,8 @@ const { getTopPlayersGroup, getTopPlayersMap, getMaps, getMapRecords, getProfile
 const { APILogin } = require("../functions/authentication.js")
 const { embedFormatter, recordPlacingFormatter, scoreFormatter } = require("../helper/helper.js")
 
+TMIOclient.setUserAgent('Project Name: state-trackmania-bot, Contact: Bladed#1980 on Discord')
+
 async function getTopPlayerTimes(mapUid) {
     const APICredentials = await APILogin()
 
